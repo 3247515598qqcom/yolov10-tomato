@@ -1,0 +1,27 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 环境变量与本地配置
+.env
+.streamlit/secrets.toml
+
+# 编辑器
+.idea/
+.vscode/
+
+# 训练与推理产物
+runs/
+*.log
+*.cache
+
+# 数据集体积过大（约 212 MB），不入库，获取方式见 README
+det_tomato_leaf_diseases/
+datasets/
